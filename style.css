@@ -24,7 +24,12 @@ body {
     background: rgba(0, 0, 0, 0.9);
     z-index: 1000;
     padding: 1rem 0;
+    transition: background 0.25s ease;
 }
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.95);
+}
+
 
 .nav-container {
     max-width: 1200px;
